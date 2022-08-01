@@ -26,6 +26,8 @@ public class DBManager {
     public Connection getConnectionToDB() {
         Connection conn = null;
         try {
+            System.out.println(propManager.getProperty(PropConsts.DB_PASSWORD));
+            System.out.println(propManager.getProperty(PropConsts.DB_LOGIN));
              conn = DriverManager.getConnection(
                     propManager.getProperty(PropConsts.DB_URL),
                     propManager.getProperty(PropConsts.DB_LOGIN),

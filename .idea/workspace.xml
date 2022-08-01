@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de0e720e-2369-4172-b1d8-1c0ef696b6d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groovy/Jenkinsfile.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/groovy/Jenkinsfile.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,6 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Documents/jdbc_plus_ui/src/test/java/ru/ibs/framework/tests/CloneOfLoginToGitHub&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,8 +58,16 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.ibs.framework.pages" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\jdbc_plus_ui\src\test\java\ru\ibs\framework\tests\CloneOfLoginToGitHub" />
+      <recent name="C:\Users\User\Documents\jdbc_plus_ui\src\test\java\ru\ibs\framework\tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\jdbc_plus_ui\groovy" />
       <recent name="C:\Users\User\IdeaProjects\selenium_repeat2\jdbc_plus_ui_testing\src\main\resources\drivers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.ibs.framework.tests" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -75,7 +79,7 @@
       <command value="mvn  clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginGitHubTest.unsuccessAuth">
+  <component name="RunManager" selected="JUnit.OriginalSuccessLoginGitHubTest.successAuth">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ibs.framework.Main" />
       <module name="jdbc_plus_ui_testing" />
@@ -89,47 +93,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginGitHubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbc_plus_ui_testing" />
+    <configuration name="OriginalSuccessLoginGitHubTest.successAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_plus_ui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ibs.framework.tests.*" />
+          <option name="PATTERN" value="ru.ibs.framework.tests.OriginalLoginToGitHub.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.ibs.framework.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.ibs.framework.tests.LoginGitHubTest" />
+      <option name="PACKAGE_NAME" value="ru.ibs.framework.tests.OriginalLoginToGitHub" />
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.framework.tests.OriginalLoginToGitHub.OriginalSuccessLoginGitHubTest" />
+      <option name="METHOD_NAME" value="successAuth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OriginalUnsuccessLoginGitHubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_plus_ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ibs.framework.tests.OriginalLoginToGitHub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.ibs.framework.tests.OriginalLoginToGitHub" />
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.framework.tests.OriginalLoginToGitHub.OriginalUnsuccessLoginGitHubTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginGitHubTest.dummy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbc_plus_ui_testing" />
+    <configuration name="OriginalUnsuccessLoginGitHubTest.dummy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_plus_ui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ibs.framework.tests.*" />
+          <option name="PATTERN" value="ru.ibs.framework.tests.OriginalLoginToGitHub.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.ibs.framework.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.ibs.framework.tests.LoginGitHubTest" />
+      <option name="PACKAGE_NAME" value="ru.ibs.framework.tests.OriginalLoginToGitHub" />
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.framework.tests.OriginalLoginToGitHub.OriginalUnsuccessLoginGitHubTest" />
       <option name="METHOD_NAME" value="dummy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginGitHubTest.unsuccessAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbc_plus_ui_testing" />
+    <configuration name="OriginalUnsuccessLoginGitHubTest.unsuccessAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_plus_ui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ibs.framework.tests.*" />
+          <option name="PATTERN" value="ru.ibs.framework.tests.OriginalLoginToGitHub.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.ibs.framework.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.ibs.framework.tests.LoginGitHubTest" />
+      <option name="PACKAGE_NAME" value="ru.ibs.framework.tests.OriginalLoginToGitHub" />
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.framework.tests.OriginalLoginToGitHub.OriginalUnsuccessLoginGitHubTest" />
       <option name="METHOD_NAME" value="unsuccessAuth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -138,9 +158,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginGitHubTest.unsuccessAuth" />
-        <item itemvalue="JUnit.LoginGitHubTest" />
-        <item itemvalue="JUnit.LoginGitHubTest.dummy" />
+        <item itemvalue="JUnit.OriginalSuccessLoginGitHubTest.successAuth" />
+        <item itemvalue="JUnit.OriginalUnsuccessLoginGitHubTest.unsuccessAuth" />
+        <item itemvalue="JUnit.OriginalUnsuccessLoginGitHubTest" />
+        <item itemvalue="JUnit.OriginalUnsuccessLoginGitHubTest.dummy" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -155,6 +176,10 @@
       <updated>1658818767865</updated>
       <workItem from="1658818771375" duration="26133000" />
       <workItem from="1659092777341" duration="11165000" />
+      <workItem from="1659361270248" duration="20097000" />
+      <workItem from="1659695454563" duration="4834000" />
+      <workItem from="1659945364108" duration="2945000" />
+      <workItem from="1660224233188" duration="2960000" />
     </task>
     <servers />
   </component>
@@ -166,7 +191,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
